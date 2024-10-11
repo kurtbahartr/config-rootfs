@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://palfrey.github.io/discord-apt/debian/
+Suites: ./
+Components: 
