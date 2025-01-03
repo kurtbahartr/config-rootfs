@@ -23,4 +23,4 @@
 # Usage: /path/to/priv-ca-shield-sysd.sh
 
 sudo mkdir -p /etc/systemd/resolved.conf.d/
-curl -s https://raw.githubusercontent.com/kurtbahartr/config-rootfs/common-sysd/etc/systemd/resolved.conf.d/priv-cira-dns.conf | sudo tee /etc/systemd/resolved.conf.d/priv-cira-dns.conf
+curl -s https://raw.githubusercontent.com/kurtbahartr/config-rootfs/master/common-sysd/etc/systemd/resolved.conf.d/priv-cira-dns.conf | sudo tee /etc/systemd/resolved.conf.d/priv-cira-dns.conf
