@@ -88,7 +88,7 @@ NFQWS_UDP_PKT_IN=0
 # use <HOSTLIST> and <HOSTLIST_NOAUTO> placeholders to engage standard hostlists and autohostlist in ipset dir
 # hostlist markers are replaced to empty string if MODE_FILTER does not satisfy
 # <HOSTLIST_NOAUTO> appends ipset/zapret-hosts-auto.txt as normal list
-NFQWS_OPT="--dpi-desync=fake --dpi-desync-ttl=3"
+NFQWS_OPT="--dpi-desync=fake --dpi-desync-ttl=3 --dpi-desync-fooling=md5sig"
 
 # none,ipset,hostlist,autohostlist
 MODE_FILTER=none
